@@ -1,3 +1,23 @@
 @media (min-width: 60em) {
-    
+    .header {
+        position: sticky;
+        top: 0;
+        left: 0;
+        flex-direction: row;
+    }
+
+    .logo {
+        width: 10%;
+    }
+
+    .navegacao {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navegacao a {
+        padding: 2dvh 3dvh;
+        /* border-bottom: 1px solid var(--branco); */
+        font-size: 2dvh;
+    }
 }
