@@ -1,5 +1,6 @@
 :root{
     --branco: white;
+    --cinza-claro: #c8c8c8;
     --roxo: #612674;
     --ciano: #51DBD2;
     --cinza: #25303E;
@@ -100,7 +101,7 @@ html{
 .sobre{
     display: flex;
     flex-direction: column;
-    margin: 10%
+    margin: 10%;
 }
 
 .sobre-titulo{
