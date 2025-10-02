@@ -4,20 +4,153 @@
         top: 0;
         left: 0;
         flex-direction: row;
+        justify-content: space-around;
     }
 
     .logo {
-        width: 10%;
+        width: 20%;
+        margin: 0;
     }
 
     .navegacao {
         flex-direction: row;
-        align-items: center;
     }
 
     .navegacao a {
-        padding: 2dvh 3dvh;
+        padding: 1dvw 2dvw;
         /* border-bottom: 1px solid var(--branco); */
-        font-size: 2dvh;
+        font-size: 2dvw;
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        color: var(--roxo);
+        font-weight: 600;
     }
+
+    .navegacao a:hover {
+        background-color: var(--roxo);
+        color: var(--branco);
+    }
+
+    .descubra{
+        background-image: url(../Public/Images/Panoramico-de-Uberaba.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        padding: 0 8% 5%;
+        height: 50dvw;
+        justify-content: end;
+    }
+
+    .play{
+        display: block;
+        width: 10dvw;
+    }
+
+    .titulo-descubra{
+        font-size: 2dvw;
+        color: var(--branco);
+        text-shadow: -.4dvw .3dvw .4dvw var(--preto);
+    }
+
+    .slogan-hotel{
+        font-size: 2dvw;
+        color: var(--branco);
+        text-shadow: -.4dvw .3dvw .4dvw var(--preto);
+    }
+
+    .descubra-mais{
+        padding: 2% 5%;
+        font-size: 2dvw;
+    }
+
+    .informacoes{
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0 5dvw;
+        background-color: var(--cinza-claro);
+    }
+
+    .cartao-informacoes{
+        margin: 2dvw 0 0;
+        width: 15dvw;
+    }
+
+    .cartao-icone{
+        width: 5dvw;
+    }
+
+    .cartao-titulo{
+        font-size: 2dvw;
+    }
+
+    .cartao-paragrafo{
+        font-size: 1dvw;
+        padding: 0;
+    }
+
+    .sobre-hotel{
+        margin: 2dvw 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .sobre{
+        margin: 0;
+        width: 20dvw;
+    }
+
+    .sobre-titulo{
+        font-size: 2dvw;
+        margin: .5dvw 0;
+    }
+
+    .sobre-detalhes{
+        font-size: 1dvw;
+        margin: 0;
+        text-align: justify;
+    }
+
+    .localizacao{
+        height: 40dvw;
+    }
+
+    .pontos-turisticos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 2dvw;
+    }
+
+    .pontos-titulo{
+        font-size: 5dvw;
+        width: 100vw;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .pontos-cartao{
+        width: 30dvw;
+        margin: 0;
+    }
+
+    .ponto-titulo{
+        font-size: 3dvw;
+        margin: 0;
+        text-align: center;
+    }
+
+    .ponto-descricao{
+        font-size: 2dvw;
+        margin: .1dvw 0 0;
+        text-align: center;
+    }
+
+    .foot{
+        height: 6dvw;
+        font-size: 2dvw;
+    }
+
 }
