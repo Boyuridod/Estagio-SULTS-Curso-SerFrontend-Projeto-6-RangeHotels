@@ -35,7 +35,7 @@ html {
     padding: 5dvw;
     border-bottom: 1px solid var(--branco);
     text-align: center;
-    font-size: 4dvw;
+    font-size: 12px;
 }
 
 .descubra {
@@ -51,13 +51,13 @@ html {
 
 .titulo-descubra {
     color: var(--roxo);
-    font-size: 7dvw;
+    font-size: 21px;
 }
 
 .slogan-hotel {
     text-align: center;
     padding: 0 10%;
-    font-size: 4dvw;
+    font-size: 12px;
     margin-bottom: 8%;
 }
 
@@ -67,7 +67,7 @@ html {
     color: var(--branco);
     text-decoration: none;
     border-radius: 1em;
-    font-size: 4dvw;
+    font-size: 12px;
 }
 
 .informacoes {
@@ -90,11 +90,11 @@ html {
 .cartao-titulo {
     text-transform: uppercase;
     color: var(--roxo);
-    font-size: 7dvw;
+    font-size: 21px;
 }
 
 .cartao-paragrafo {
-    font-size: 4dvw;
+    font-size: 12px;
     text-align: center;
     padding: 0 10%;
 }
@@ -107,11 +107,11 @@ html {
 
 .sobre-titulo {
     color: var(--roxo);
-    font-size: 7dvw;
+    font-size: 21px;
 }
 
 .sobre-detalhes {
-    font-size: 4dvw;
+    font-size: 12px;
 }
 
 .localizacao {
@@ -126,14 +126,14 @@ html {
     flex-direction: column;
 }
 
-.pontos-turisticos h1,
+.pontos-turisticos h1,=
 .pontos-turisticos h2 {
     color: var(--roxo);
 }
 
 .pontos-titulo {
     margin: 0 auto 10%;
-    font-size: 7dvw;
+    font-size: 21px;
 }
 
 .ponto-imagem {
@@ -141,11 +141,11 @@ html {
 }
 
 .ponto-titulo {
-    font-size: 6dvw;
+    font-size: 18px;
 }
 
 .ponto-descricao {
-    font-size: 4dvw;
+    font-size: 12px;
 }
 
 .pontos-cartao {
@@ -159,7 +159,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 5dvw;
+    font-size: 15px;
 }
 
 .foot a {
