@@ -5,9 +5,118 @@
     --ciano: #51DBD2;
     --cinza: #25303E;
     --preto: black;
+
+    width: 100dvw;
 }
 
 html {
     font-family: sans-serif;
+    width: 100dvw;
 }
 
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    margin-top: 1rem;
+}
+
+.navegacao{
+    display: block;
+    width: 100%;
+}
+
+.lista-navegacao{
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista-navegacao li a{
+    text-decoration: none;
+    background-color: var(--roxo);
+    color: var(--branco);
+    display: block;
+    text-align: center;
+    padding: 1.2rem;
+}
+
+.lista-navegacao li a:hover{
+    background-color: color-mix(in srgb, var(--roxo) 90%, var(--branco) 10%);
+}
+
+.play{
+    display: none;
+}
+
+.descubra{
+    margin-top: 2rem;
+}
+
+.titulo-descubra{
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 0 1rem;
+    color: var(--roxo);
+}
+
+.slogan-hotel{
+    text-align: center;
+    padding: 0 1rem;
+    color: color-mix(in srgb, var(--roxo) 90%, var(--branco) 10%);
+}
+
+.descubra-mais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--ciano);
+    height: 3rem;
+    margin: 1rem 15%;
+    border-radius: 1rem;
+    text-decoration: none;
+    text-align: center;
+    color: var(--branco);
+}
+
+.informacoes{
+    margin-top: 4rem;
+}
+
+.cartao-icone{
+    display: block;
+    margin: auto;
+    height: 4rem;
+    width: 4rem;
+}
+
+.cartao-icone use{
+    fill: var(--roxo);
+    transform: scale(2);
+}
+
+.cartao-titulo{
+    color: var(--roxo);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.cartao-paragrafo{
+    text-align: center;
+    padding: 0 1.5rem;
+}
+
+.sobre-hotel{
+    margin: 2rem 2rem 0;
+}
+
+.sobre{
+    
+}
+
+.sobre-imagem{
+    width: 100%;
+}
