@@ -90,11 +90,9 @@ html {
     margin: auto;
     height: 4rem;
     width: 4rem;
-}
-
-.cartao-icone use{
+    --icon-color: red;
     fill: var(--roxo);
-    transform: scale(2);
+    /* transform: scale(2); */
 }
 
 .cartao-titulo{
