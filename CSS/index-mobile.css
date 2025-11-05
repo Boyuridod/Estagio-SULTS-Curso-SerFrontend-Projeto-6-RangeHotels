@@ -52,7 +52,7 @@ html {
 }
 
 .descubra{
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .titulo-descubra{
@@ -82,7 +82,7 @@ html {
 }
 
 .informacoes{
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .cartao-icone{
@@ -92,7 +92,6 @@ html {
     width: 4rem;
     --icon-color: red;
     fill: var(--roxo);
-    /* transform: scale(2); */
 }
 
 .cartao-titulo{
@@ -111,10 +110,67 @@ html {
     margin: 2rem 2rem 0;
 }
 
-.sobre{
-    
+.sobre-titulo{
+    color: var(--roxo);
+    text-transform: uppercase;
+    font-weight: 50;
+    letter-spacing: .3rem;
+}
+
+.sobre-detalhes{
+    color: var(--preto);
+    text-align: justify;
 }
 
 .sobre-imagem{
     width: 100%;
+}
+
+.localizacao{
+    height: 30rem;
+}
+
+.pontos-turisticos{
+    width: 90%;
+    margin: auto;
+}
+
+.pontos-titulo{
+    text-align: center;
+    color: var(--roxo);
+}
+
+.ponto-imagem{
+    width: 100%;
+}
+
+.ponto-titulo{
+    color: var(--roxo);
+}
+
+.pontos-cartao:not(:nth-of-type(2)) .ponto-titulo{
+    margin-bottom: 0;
+}
+
+.ponto-descricao{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: var(--roxo);
+    font-weight: 100;
+}
+
+.foot{
+    background-color: var(--cinza);
+    color: var(--branco);
+}
+
+.foot p{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 0;
+}
+
+.foot p a{
+    color: var(--branco);
 }
