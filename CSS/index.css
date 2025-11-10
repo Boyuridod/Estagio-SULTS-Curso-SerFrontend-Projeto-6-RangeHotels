@@ -1,156 +1,148 @@
 @media (min-width: 60em) {
-    .header {
+    .header{
         position: sticky;
         top: 0;
         left: 0;
         flex-direction: row;
-        justify-content: space-around;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: var(--branco);
     }
 
-    .logo {
-        width: 20%;
+    .logo{
+        margin-top: 0;
+    }
+
+    .navegacao{
+        max-width: fit-content;
+    }
+
+    .lista-navegacao{
+        display: flex;
+        justify-content: space-between;
         margin: 0;
     }
 
-    .navegacao {
-        flex-direction: row;
+    .lista-navegacao li{
+        margin: 0 1rem;
     }
 
-    .navegacao a {
-        padding: 1dvw 2dvw;
-        /* border-bottom: 1px solid var(--branco); */
-        font-size: 2dvw;
-        display: flex;
-        align-items: center;
+    .lista-navegacao li a{
         background-color: transparent;
         color: var(--roxo);
-        font-weight: 600;
+        font-weight: 500;
+        font-size: 2rem;
+        padding-inline: 2rem;
     }
 
-    .navegacao a:hover {
+    .lista-navegacao li a:hover{
         background-color: var(--roxo);
         color: var(--branco);
     }
 
     .descubra{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        height: 80vh;
         background-image: url(../Public/Images/Panoramico-de-Uberaba.png);
-        background-repeat: no-repeat;
         background-size: cover;
-        margin: 0;
-        padding: 0 8% 5%;
-        height: 50dvw;
         justify-content: end;
+        color: var(--branco);
+        padding: 2rem 4rem;
     }
 
     .play{
-        display: block;
-        width: 10dvw;
+        display: inline-block;
+        width: 8rem;
+        margin: 0 auto;
+    }
+
+    .titulo-descubra, .slogan-hotel{
+        color: inherit;
     }
 
     .titulo-descubra{
-        font-size: 2dvw;
-        color: var(--branco);
-        text-shadow: -.4dvw .3dvw .4dvw var(--preto);
+        font-size: 4rem;
+        text-shadow: -5px 5px 10px black;
     }
 
     .slogan-hotel{
-        font-size: 2dvw;
-        color: var(--branco);
-        text-shadow: -.4dvw .3dvw .4dvw var(--preto);
+        font-size: 2rem;
+        text-shadow: -4px 4px 5px black;
     }
 
     .descubra-mais{
-        padding: 2% 5%;
-        font-size: 2dvw;
+        font-size: 1.5rem;
+        margin: 1rem auto;
+        padding: 1rem 2rem;
+        text-shadow: -2px 2px 5px black;
     }
 
     .informacoes{
-        flex-direction: row;
+        display: flex;
         justify-content: space-evenly;
-        padding: 0 5dvw;
-        background-color: var(--cinza-claro);
     }
 
     .cartao-informacoes{
-        margin: 2dvw 0 0;
-        width: 15dvw;
-    }
-
-    .cartao-icone{
-        width: 5dvw;
-    }
-
-    .cartao-titulo{
-        font-size: 2dvw;
-    }
-
-    .cartao-paragrafo{
-        font-size: 1dvw;
-        padding: 0;
+        max-width: 25rem;
     }
 
     .sobre-hotel{
-        margin: 2dvw 0;
         display: flex;
-        flex-direction: row;
+        justify-content: space-evenly;
         flex-wrap: wrap;
-        justify-content: space-around;
     }
 
     .sobre{
-        margin: 0;
-        width: 20dvw;
-    }
-
-    .sobre-titulo{
-        font-size: 2dvw;
-        margin: .5dvw 0;
-    }
-
-    .sobre-detalhes{
-        font-size: 1dvw;
-        margin: 0;
-        text-align: justify;
+        max-width: 25rem;
     }
 
     .localizacao{
-        height: 40dvw;
+        padding: 2rem;
     }
 
     .pontos-turisticos{
-        flex-direction: row;
+        display: flex;
+        justify-content: space-evenly;
         flex-wrap: wrap;
-        justify-content: space-around;
-        margin-bottom: 2dvw;
     }
 
     .pontos-titulo{
-        font-size: 5dvw;
-        width: 100vw;
-        text-align: center;
-        margin-bottom: 5%;
+        width: 100%;
+        font-size: 4rem;
     }
 
     .pontos-cartao{
-        width: 30dvw;
-        margin: 0;
+        min-width: 25rem;
+        max-height: 30rem;
+        display: flex;
+        flex-direction: column;
+        transition: scale .5s ease-in-out;
     }
 
-    .ponto-titulo{
-        font-size: 3dvw;
-        margin: 0;
-        text-align: center;
+    .pontos-cartao:hover{
+        scale: 1.1;
     }
 
-    .ponto-descricao{
-        font-size: 2dvw;
-        margin: .1dvw 0 0;
-        text-align: center;
+    .ponto-imagem{
+        flex-grow: 1;
     }
 
-    .foot{
-        height: 6dvw;
-        font-size: 2dvw;
+    .foot p, .foot p a{
+        font-size: 2rem;
     }
 
+    .foot p a[href="https://serliv.com/"]{
+        color: var(--ciano);
+    }
+
+    .foot p a{
+        text-decoration: none;
+        transition: color .5s ease-in-out;
+    }
+
+    .foot p a:hover{
+        color: color-mix(in srgb, var(--roxo) 80%, var(--branco) 20%);
+    }
 }
