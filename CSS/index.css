@@ -110,10 +110,39 @@
 
     .pontos-titulo{
         width: 100%;
+        font-size: 4rem;
     }
 
     .pontos-cartao{
         min-width: 25rem;
         max-height: 30rem;
+        display: flex;
+        flex-direction: column;
+        transition: scale .5s ease-in-out;
+    }
+
+    .pontos-cartao:hover{
+        scale: 1.1;
+    }
+
+    .ponto-imagem{
+        flex-grow: 1;
+    }
+
+    .foot p, .foot p a{
+        font-size: 2rem;
+    }
+
+    .foot p a[href="https://serliv.com/"]{
+        color: var(--ciano);
+    }
+
+    .foot p a{
+        text-decoration: none;
+        transition: color .5s ease-in-out;
+    }
+
+    .foot p a:hover{
+        color: color-mix(in srgb, var(--roxo) 80%, var(--branco) 20%);
     }
 }
